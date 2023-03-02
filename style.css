@@ -1,0 +1,47 @@
+h1{
+    text-transform:uppercase
+}
+.project{
+    text-transform:lowercase
+}
+*{
+    border:1px solid red;
+    color:blueviolet;
+box-sizing:border-box;
+}
+#project1{
+    color:brown;
+}
+.success-message{
+        border:2px solid green;
+        text-align:center;
+        height:200px;
+        width:250px;
+        padding:50px;
+        padding-left:20px;
+        margin:100px;
+}
+.error-message{
+    border:2px solid #ff0000;
+    text-align:center;
+}
+.message{
+    color:gray;
+    background-color:seashell;
+}
+.message.success-message{
+    border:2px solid rgb(255, 185, 8);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    font-weight:normal;
+
+}
+header .item{
+    text-decoration:underline;
+}
+body{
+    background-image:url('./images/moroccan-flower-dark.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
